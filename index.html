@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Parador Laurel | Links</title>
+</head>
+<body>
+    <div class="card">
+        <img src="img/ParadorLogo2.png" alt="Logo" class="logo" />
+        <button class="btn" onclick="location.href='Menu.pdf'">Menú</button>
+        <button class="btn" onclick="location.href='tienda.html'">Productos</button>
+        <button class="btn" id="arrow" onclick="toggleIcons()">
+        Tiendas
+        </button>
+
+        <div id="iconContainer" class="icon-container">
+            <div class="tiendadiv">
+            <button class="icon" onclick="showTienda('home')">
+                <img src="/img/LaurelHome.png" alt="Laurel Home"/>
+            </button>
+            </div>
+            <div class="tiendadiv">
+            <button class="icon" onclick="showTienda('hotel')">
+                <img src="/img/CasaLaurel.png" alt="Casa Laurel"/>
+            </button>
+            </div>
+            <div class="tiendadiv">
+            <button class="icon" onclick="showTienda('parador')">
+                <img src="/img/Parador.png" alt="Laurel Parador"/>
+            </button>
+            </div>
+            <div class="tiendadiv">
+            <button class="icon" onclick="showTienda('latienda')">
+                <img src="/img/LaurelTienda.png" alt="Laurel Tienda"/>
+            </button>
+            </div>
+        </div>
+        <div>
+            <div class="card-tiendas">
+                <h2>Laurel Home</h2>
+                <p class="subtitle">Ambientaciones</p>
+                <p><strong>Dirección:</strong> Solís y Obligado, B7130 Chascomús, Provincia de Buenos Aires</p>
+                <p><strong>Horario:</strong> Lunes a viernes 9 a 13 ~ 16 a 20 hs.</p>
+                <div class="social">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+                <span>Instagram</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type='text/javascript' src='/js/logos.js'></script>
+<script type='text/javascript' src='/js/infotiendas.js'></script>
+</html>
